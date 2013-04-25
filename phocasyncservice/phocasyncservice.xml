@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>com_phocasyncservice</name>
+	<author>Randi Hillerøe</author>
+	<authorEmail>silwing@cs.au.dk</authorEmail>
+	<authorUrl>http://www.silwing.dk</authorUrl>
+	<copyright>(C) 2013 Randi Hillerøe</copyright>
+	<version>1.0</version>
+	<creationDate>April 2013</creationDate>
+	<description>COM_PHOCASYNC_XML_DESCRIPTION</description>
+
+	<!-- Installer Hooks -->
+	<!--scriptfile>file.script.php</scriptfile--> <!-- New in 1.6 -->
+
+	<!-- Front end file, media and language specification -->
+	<files folder="site">
+		<filename>phocasyncservice.php</filename>
+		<folder>helper</folder>
+	</files>
+
+	<administration>
+		<!-- Administrator Menu -->
+		<menu>PhocaSync Webservice</menu>
+		<!-- Administrator file and language specification;
+			Note: administrator doesn't have media -->
+		<files folder="admin">
+			<filename>admin.phocasyncservice.php</filename>
+		</files>
+
+	</administration>
+
+	<!-- Extension Update Specification -->
+	<updateservers>
+		<server type="extension" priority="1" name="Extension Update Site">https://raw.github.com/azgul/synchronize-webservice/update/phocasyncservice/admin/extension.xml</server>
+	</updateservers>
+</extension>
