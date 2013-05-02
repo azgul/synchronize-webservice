@@ -17,15 +17,17 @@ JSON Results
 ------------
 
 ### Categories
+An array of json objects: 
 
 **{**  
 &emsp;&emsp; "id": *unique ID*  
 &emsp;&emsp; "name": *category name*  
 &emsp;&emsp; "image": *category image*  
-&emsp;&emsp; "parentId": *parent category, or 0 for root*
+&emsp;&emsp; "parentId": *parent category, or 0 for root*  
 **}**
 
 ### Files
+An array of json objects:
 
 **{**  
 &emsp;&emsp; "id": *unique ID*  
