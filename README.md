@@ -38,6 +38,7 @@ An array of json objects:
 &emsp;&emsp; "category": *category ID*  
 &emsp;&emsp; "description": *file description*  
 &emsp;&emsp; "tags": *array of tags*  
+&emsp;&emsp; "language": *file language*
 &emsp;&emsp; "preview": *URL to preview*  
 &emsp;&emsp; "icon": *URL to icon*  
 &emsp;&emsp; "image": *URL to image*  
